@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-avatar img {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  section h3 {
+    font-size: 26px;
+  }
+
+  .project-details {
+    grid-template-columns: 1fr;
+  }
+}
+    

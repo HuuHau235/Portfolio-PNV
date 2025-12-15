@@ -1,0 +1,30 @@
+.btn-primary {
+  padding: 12px 28px;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: var(--dark);
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(56,189,248,0.4);
+}
+
+.skill-card,
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover,
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}

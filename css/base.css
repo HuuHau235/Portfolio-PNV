@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #38bdf8;
+  --accent: #22d3ee;
+  --dark: #020617;
+  --dark-soft: #0f172a;
+  --text: #1e293b;
+  --muted: #64748b;
+  --bg-light: #f8fafc;
+  --border: #e5e7eb;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text);
+  background: #ffffff;
+  line-height: 1.65;
+}
